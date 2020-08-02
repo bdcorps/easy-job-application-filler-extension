@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Easy Job Application Filler",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://jobs.lever.co/shopify/*"],
+      "js": ["lib/jquery.min.js", "shopify.js"]
+    },
+    {
+      "matches": ["https://careers.twitter.com/*"],
+      "js": ["lib/jquery.min.js", "twitter.js"]
+    },
+    {
+      "matches": ["https://boards.greenhouse.io/airtable/*"],
+      "js": ["lib/jquery.min.js", "airtable.js"]
+    }
+
+  ],
+  "browser_action": {
+    "default_icon": "favicon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": [
+    "data.json"
+  ],
+    "permissions": [
+        "storage"
+    ]
+
+}

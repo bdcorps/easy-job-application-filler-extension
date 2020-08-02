@@ -1,0 +1,146 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Options - Easy Job Application Filler</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+  <div class="offset-md-2 col-md-8 text-center py-5">
+    <h2>Easy Job Application Filler - Options</h2>
+    <p class="lead">Enter your information below. This will be used to automatically fill out your job applications. The data will be saved to Local Storage.</p>
+    <p class="lead">Very much an MVP under development. Works on Twitter, Airtable, and Shopify careers. Have feedback? <a href="mailto:sunnyashiin@gmail.com">Send me a message.</p></a>
+  </div>
+
+  <div class="row">
+    <div class="offset-md-2 col-md-8 offset-md-2 order-md-1">
+      <h4 class="mb-3">Personal Information</h4>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstname">First name</label>
+            <input type="text" class="form-control" id="firstname" placeholder="Elon" value="" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastname">Last name</label>
+            <input type="text" class="form-control" id="lastname" placeholder="Musk" value="" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="hi@elonmusk.com">
+          </div>
+
+          <div class="col-md-12 mb-3">
+            <label for="company">Where do you work currently?</label>
+            <input type="text" class="form-control" id="company" placeholder="Tesla Inc.">
+          </div>
+
+          <div class="col-md-12 mb-3">
+          <label for="phone">Your Phone Number</label>
+          <input type="number" class="form-control" id="phone" placeholder="6474204200">
+        </div></div>
+       
+
+      
+        <hr class="mb-4">
+
+        <h4 class="mb-3">Social Links</h4>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="linkedin">LinkedIn URL</label>
+            <input type="text" class="form-control" id="linkedin" placeholder="https://www.linkedin.com/elonmusk">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="github">Github URL</label>
+            <input type="text" class="form-control" id="github" placeholder="https://github.com/elonmusk">
+          </div>
+         
+        </div>
+
+        <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="twitter">Twitter URL</label>
+          <input type="text" class="form-control" id="twitter" placeholder="https://twitter.com/elonmusk">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="skype">Skype Username URL</label>
+          <input type="text" class="form-control" id="skype" placeholder="elon.musk">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="portfolio">Portfolio Website</label>
+          <input type="text" class="form-control" id="portfolio" placeholder="https://elonmuskthegreat.com">
+        </div>
+      </div>
+
+      
+      
+      <hr class="mb-4">
+
+      <h4 class="mb-3">Cover Letter</h4>
+
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <label for="coverletter">Cover Letter</label>
+          <textarea class="form-control" id="coverletter" rows="10" >
+${NAME}
+${PHONE}
+${EMAIL}
+
+Dear Hiring Manager, 
+In my search for new creative endeavours, I was thrilled to find the ${JOB} opening with ${COMPANY}. As an ambitious professional experienced Full Stack Developer, I believe that I would make an excellent addition to your team.
+Identifying improved approaches and enhanced solutions to business challenges are activities that drive and inspire me. Exploration, pursuit and motivation are my frameworks for success. I believe that fresh perspectives and trying new techniques help businesses evolve and grow. Like ${COMPANY}, my goal is to be on the cutting-edge of industry advancements.
+
+Contributions to my former Full Stack Developer role, and this field at-large, revolve around my essential talents in software development and product development. I have developed strong abilities in innovation and fostered a reputation as a key contributor through communication and leadership skills. As a team player, I am collaborative with peers and search for ways to integrate valuable insights. Through these qualities, I have confidence in my ability to facilitate positive change and collective effort.
+
+For a greater illustration of my background and qualifications, please review my enclosed resume. I am eager to speak with you about this opportunity and thoroughly appreciate your consideration.
+
+Sincerely,
+${NAME}
+          </textarea>        
+        </div>
+      </div>
+
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" id="submit" >Save Information</button>
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2020 SaaSBase</p>
+  </footer>
+</div>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/popper.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="js/options.js"></script>
+</html>

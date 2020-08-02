@@ -1,0 +1,15 @@
+{
+    "name":"Sukhpal Saini",
+    "email":"hello@example.com",
+    "phone":"6479675702",
+    "location":"locaiton",
+    "company" :"company",
+    "links":{
+        "skype": "SKype",
+        "linkedin":"linkedin",
+        "github":"github",
+        "portfolio":"portfolio"
+    },
+    "coverLetter": "cover"
+
+}
