@@ -1,15 +1,15 @@
 {
-    "name":"Sukhpal Saini",
+    "name":"NAME",
     "email":"hello@example.com",
     "phone":"6479675702",
-    "location":"locaiton",
-    "company" :"company",
+    "location":"LOCATION",
+    "company" :"COMPANY",
     "links":{
-        "skype": "SKype",
-        "linkedin":"linkedin",
-        "github":"github",
-        "portfolio":"portfolio"
+        "skype": "SKYPE",
+        "linkedin":"LINKEDIN",
+        "github":"GITHUB",
+        "portfolio":"PORTFOLIO"
     },
-    "coverLetter": "cover"
+    "coverLetter": "COVER"
 
 }
