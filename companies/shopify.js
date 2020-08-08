@@ -6,7 +6,6 @@ $("#resume-upload-input").click();
 
 var data = getData({ company, job }, autoFill);
 
-
 function autoFill(data) {
   console.log(data.COVERLETTER);
   $('input[name="name"]').val(data.NAME);
