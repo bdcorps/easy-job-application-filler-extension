@@ -4,7 +4,9 @@ function getData (jobPosting, callback) {
     console.log("items ", items);
 
 a = {
-      NAME: items.name,
+  NAME: items.name,
+  FIRSTNAME: items.firstname,
+  LASTNAME: items.lastname,
       EMAIL: items.email,
       PHONE: items.phone,
       CURRENT_COMPANY: items.company,
@@ -19,7 +21,16 @@ a = {
         .replace(/\${PHONE}/gi, items.phone)
         .replace(/\${EMAIL}/gi, items.email)
     };
+
+    //add some delay before autofilling
+    setTimeout(function(){ alert("Hello");
     callback(a);
+ }, 1000);
+
+
+
+
+    
   });
   // return a;
 };

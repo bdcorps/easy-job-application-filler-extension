@@ -14,7 +14,12 @@
     {
       "matches": ["https://boards.greenhouse.io/airtable/*"],
       "js": ["lib/jquery.min.js", "js/data.js", "companies/airtable.js"]
+    },
+    {
+      "matches": ["https://www.dropbox.com/jobs/*"],
+      "js": ["lib/jquery.min.js", "js/data.js", "companies/dropbox.js"]
     }
+    
 
   ],
   "browser_action": {
