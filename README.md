@@ -4,9 +4,9 @@ A Chrome extension that saves you time by filling out common job application que
 Supports Shopify, Twitter, and Airtable career websites. More coming soon! 
 
 ## Features
-1. Instant Auto-Fill - Fill out your information like Email, Phone Number, Github, LinkedIn etc. links once and have it automatically be filled out whenever you apply to a job posting.
-2. Auto Open Resume Dialog - Have the File Picker open up to select your resume.
-3. Dynamic Cover Letter generation - Generate a custom Cover Letter with dynamic `${NAME}`, `${JOB}`, `${COMPANY}` fields.
+- Instant Auto-Fill - Fill out your information like Email, Phone Number, Github, LinkedIn etc. links once and have it automatically be filled out whenever you apply to a job posting.
+- Auto Open Resume Dialog - Have the File Picker open up to select your resume.
+- Dynamic Cover Letter generation - Generate a custom Cover Letter with dynamic `${NAME}`, `${JOB}`, `${COMPANY}` fields.
 
 ## Installation
 1. Download the ZIP folder of this repository.
