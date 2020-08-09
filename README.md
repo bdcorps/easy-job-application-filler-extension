@@ -1,6 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/bdcorps/easy-job-application-filler-extension)
 # Easy Job Application Filler
-A Chrome extension that saves you time by filling out common job application questions automagically.
+A Chrome extension that saves you time by filling out common job application questions automagically. Download on [Chrome App Store](https://chrome.google.com/webstore/detail/easy-job-application-fill/oemhgcmnckapgfkclnhpgkmnfheecmgd?hl=en-GB&authuser=0). 
+
 Supports Shopify, Twitter, and Airtable career websites. More coming soon! 
 
 ## Features
