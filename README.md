@@ -11,7 +11,7 @@ Supports Shopify, Twitter, and Airtable career websites. More coming soon!
 ## Installation
 1. Download the ZIP folder of this repository.
 2. Unzip the extension. 
-3. Install an unpacked Chrome Extension [here](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)
+3. Install an unpacked Chrome Extension like [here](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/).
 
 ## Why build this?
 Looking for a job is already hard enough. Job application websites are making it harder by making the applicant type in their details every *DAMN* time. This project is a movement to stop to these tedious processes and have it automated. 
