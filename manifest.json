@@ -18,9 +18,15 @@
     {
       "matches": ["https://www.dropbox.com/jobs/*"],
       "js": ["lib/jquery.min.js", "js/data.js", "companies/dropbox.js"]
-    }
-    
-
+    },
+    {
+      "matches": ["https://boards.greenhouse.io/embed/job_app?for=stripe*"],
+      "js": ["lib/jquery.min.js", "js/data.js", "companies/stripe.js"]
+    },
+    {
+      "matches": ["https://stripe.com/jobs/*"],
+      "js": ["lib/jquery.min.js", "js/data.js", "companies/stripe.js"]
+    } 
   ],
   "browser_action": {
     "default_icon": "favicon.png"

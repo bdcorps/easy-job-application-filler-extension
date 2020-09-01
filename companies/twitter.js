@@ -24,7 +24,5 @@ function autoFill(data) {
   
 };
 
-data-twtr-scribe-section
-f07-upload-file-button
 
 
