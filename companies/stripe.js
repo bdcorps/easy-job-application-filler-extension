@@ -26,7 +26,7 @@ function autoFill(data) {
 
   $("a[data-source='attach']")[0].click();
   $("a[data-source='paste']")[1].click();
-  $('input[name="job_application[answers_attributes][0][text_value]"]').val(data.PORTFOLIO);
+  $('input[name="job_application[answers_attributes][1][text_value]"]').val(data.PORTFOLIO);
   
   $("#cover_letter_text").val(data.COVERLETTER);
 }

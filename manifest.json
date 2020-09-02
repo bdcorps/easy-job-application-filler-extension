@@ -20,7 +20,7 @@
       "js": ["lib/jquery.min.js", "js/data.js", "companies/dropbox.js"]
     },
     {
-      "matches": ["https://stripe.com/jobs/listing/*"],
+      "matches": ["https://stripe.com/jobs/listing/*/apply"],
       "js": ["lib/jquery.min.js", "js/data.js", "embeds/greenhouse.js"]
     } ,
     {
