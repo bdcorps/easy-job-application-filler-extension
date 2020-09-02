@@ -20,16 +20,16 @@
       "js": ["lib/jquery.min.js", "js/data.js", "companies/dropbox.js"]
     },
     {
+      "matches": ["https://stripe.com/jobs/listing/*"],
+      "js": ["lib/jquery.min.js", "js/data.js", "embeds/greenhouse.js"]
+    } ,
+    {
       "matches": ["https://boards.greenhouse.io/embed/job_app?for=stripe*"],
       "js": ["lib/jquery.min.js", "js/data.js", "companies/stripe.js"]
     },
     {
-      "matches": ["https://stripe.com/jobs/*"],
-      "js": ["lib/jquery.min.js", "js/data.js", "companies/stripe.js"]
-    } ,
-    {
       "matches": ["https://careers.robinhood.com/*"],
-      "js": ["lib/jquery.min.js", "js/data.js", "companies/robinhood.js"]
+      "js": ["lib/jquery.min.js", "js/data.js", "embeds/greenhouse.js"]
     } ,
     {
       "matches": ["https://boards.greenhouse.io/embed/job_app?for=robinhood*"],
