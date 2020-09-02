@@ -26,7 +26,15 @@
     {
       "matches": ["https://stripe.com/jobs/*"],
       "js": ["lib/jquery.min.js", "js/data.js", "companies/stripe.js"]
-    } 
+    } ,
+    {
+      "matches": ["https://careers.robinhood.com/*"],
+      "js": ["lib/jquery.min.js", "js/data.js", "companies/robinhood.js"]
+    } ,
+    {
+      "matches": ["https://boards.greenhouse.io/embed/job_app?for=robinhood*"],
+      "js": ["lib/jquery.min.js", "js/data.js", "companies/robinhood.js"]
+    }
   ],
   "browser_action": {
     "default_icon": "favicon.png"
